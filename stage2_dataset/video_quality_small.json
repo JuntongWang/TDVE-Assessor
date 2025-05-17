@@ -1,0 +1,28 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> How would you rate the video quality of this video? Please only answer with a specific score."
+      },
+      {
+        "role": "assistant",
+        "content": "This quality this video is fair(52.0)"
+      }
+    ],
+    "videos": "/DATA/DATA3/wjt/new_dataset/action/edit_video/tokenflow/1061.mp4"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> How would you rate the video quality of this video? Please only answer with a specific score."
+      },
+      {
+        "role": "assistant",
+        "content": "This quality this video is bad(30.0)"
+      }
+    ],
+    "videos": "/DATA/DATA3/wjt/new_dataset/Ink painting/edit_video/text2video/1060.mp4"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> How would you rate the correspondence of this video and its prompt? prompt: A man escorts a group of various puppies for a stroll in the park."
+      },
+      {
+        "role": "assistant",
+        "content": "The correspondence of this video and its prompt is good(82.67)"
+      }
+    ],
+    "videos": "/home/wangjuntong/new_dataset/action/edit_video/tokenflow/1061.mp4"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> How would you rate the correspondence of this video and its prompt? prompt: A mother goat and two kids graze in a meadow. The kids leap onto rocky outcroppings while she watches cautiously."
+      },
+      {
+        "role": "assistant",
+        "content": "The correspondence of this video and its prompt is pool(42.67)"
+      }
+    ],
+    "videos": "/home/wangjuntong/new_dataset/multi_object/edit_video/flatten/1128.mp4"
+  }
+]

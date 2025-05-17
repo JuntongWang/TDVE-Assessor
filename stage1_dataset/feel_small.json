@@ -1,0 +1,28 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> The first half and the second half of this video are pieced together from two videos. Please rate the similarity score of the spatial structures of these two parts. Your answer should be only a number and contain no other content. \n"
+      },
+      {
+        "role": "assistant",
+        "content": "The spatial structural consistency between these two parts of the video is good"
+      }
+    ],
+    "videos": "/DATA/DATA3/wjt/2video2/action/edit_video/tokenflow/1061.mp4"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "<video> The first half and the second half of this video are pieced together from two videos. Please rate the similarity score of the spatial structures of these two parts. Your answer should be only a number and contain no other content. \n"
+      },
+      {
+        "role": "assistant",
+        "content": "The spatial structural consistency between these two parts of the video is good"
+      }
+    ],
+    "videos": "/DATA/DATA3/wjt/2video2/object/edit_video/fresco/1025.mp4"
+  }
+]
