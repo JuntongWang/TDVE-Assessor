@@ -69,14 +69,14 @@ The following table details the text-driven video editing models used for constr
 | Tune-A-Video   | 22.12 | 3s     | SD 1-4     | $512 \times 512$ | 8   | X         | ✓           |
 | Tokenflow    | 23.07 | 1s     | SD 2-1     | $512 \times 512$ | 30  | ✓         | ✓           |
 | Text2Video-Zero | 23.03 | 1-5s   | SD 1-5     | Follow Source | 24  | ✓         | ✓           |
-| CCEdit       | 23.09 | 2s     | SD 1-5     | $768 \times 512$ | 6   |           | ✓           |
+| CCEdit       | 23.09 | 2s     | SD 1-5     | $768 \times 512$ | 6   |     ✓      | ✓           |
 | ControlVideo   | 23.05 | 1s     | SD 1-5     | $512 \times 512$ | 8   | ✓         | ✓           |
 | FateZero    | 23.03 | 1-4s   | SD 1-4     | $512 \times 512$ | 10  | ✓         | ✓           |
 | FLATTEN        | 23.12 | 1-2s   | SD 2-1     | $512 \times 512$ | 15  | ✓         | ✓           |
 | FRESCO         | 24.06 | 1-5s   | SD 1-5     | Follow Source | 24  | ✓         | ✓           |
 | Pix2Video     | 23.03 | 2-4s   | SD 2       | $512 \times 512$ | 30  | ✓         | ✓           |
 | RAVE        | 23.12 | 1-3s   | SD 1-5     | Follow Source | 30  | ✓         | ✓           |
-| Slicedit     | 24.05 | 1-4s   | SD 1-5     | Follow Source | 25  |           | ✓           |
+| Slicedit     | 24.05 | 1-4s   | SD 1-5     | Follow Source | 25  |     ✓      | ✓           |
 | vid2vid-zero  | 23.03 | 2s     | SD 2-1     | $512 \times 512$ | 8   | ✓         | ✓           |
 
 ### Comparison of Video Editing Datasets
@@ -85,10 +85,10 @@ TDVE-DB is compared with other existing video editing datasets based on key metr
 
 | Dataset                | Samples | Edited | MOS      | Edit Dimension | Evaluate Dimension | Count of video editing models | FPS   | Open Source |
 | :--------------------- | :------ | :----- | :------- | :------------- | :----------------- | :---------------------------- | :---- | :---------- |
-| Señorita-2M       | 2M      | X      | X        | X              | -                  | 4                             | 28    |             |
-| LOVEU-TGVE-2023   | 78      | ✓      | X        | X              | -                  | X                             | 8     |             |
-| BalanceCC              | 412     | ✓      | X        | 4              | -                  | 1                             | 8     |             |
-| VE-Bench DB       | 1170    | ✓      | 28,000   | 3              | -                  | 8                             | 8     |             |
+| Señorita-2M       | 2M      | X      | X        | X              | -                  | 4                             | 28    |      **✓**       |
+| LOVEU-TGVE-2023   | 78      | ✓      | X        | X              | -                  | X                             | 8     |      **✓**       |
+| BalanceCC              | 412     | ✓      | X        | 4              | -                  | 1                             | 8     |       **✓**      |
+| VE-Bench DB       | 1170    | ✓      | 28,000   | 3              | 1                  | 8                             | 8     |      **✓**       |
 | **TDVE-DB (Ours)** | **3857**| **✓** | **173,565**| **8** | **3** | **12** | **6-30**| **✓** |
 
 ### Performance Benchmark on TDVE-DB (Full Table)
