@@ -122,12 +122,25 @@ We plan to release the pretrained weights for TDVE-Assessor. Check back soon for
 ### Train
 
 **Stage1:** 
-bash LLM.sh
-
+```
+bash train_LLM.py
+```
+Then, merge the model weights well-trained in the first stage with the initial weights (the initial weights can be downloaded from Qwen/Qwen2.5-VL-7B-Instruct on Hugging Face). The merge requires calling:
+```
+bash merge_lora.sh
+```
 **Stage2:**
-bash MLP.sh
+```
+bash train_MLP.sh
+```
+In the training process described above, all you need to do is adjust the paths for the training set, test set, and model input/output within each .sh file. This is very straightforward.
 
 ### Evaluation
 
-To evaluate videos using a pretrained TDVE-Assessor model:
+You can evaluate videos using  pretrained TDVE-Assessor model. The pretrained model will come soon.
+Just use 
+```
+python ./evaluate/eval_auth.py
+``` 
+What you should do is changing the input. (model and test directory)
 
