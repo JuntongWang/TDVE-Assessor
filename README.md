@@ -91,13 +91,6 @@ TDVE-DB is compared with other existing video editing datasets based on key metr
 | VE-Bench DB       | 1170    | ✓      | 28,000   | 3              | 1                  | 8                             | 8     |      **✓**       |
 | **TDVE-DB (Ours)** | **3857**| **✓** | **173,565**| **8** | **3** | **12** | **6-30**| **✓** |
 
-### Performance Benchmark on TDVE-DB (Full Table)
-
-好的，我明白了您的要求。我会重新处理Table 3，去除模型名称后的引用数字，并取消所有加粗和颜色标注，然后将其转换为标准的Markdown格式。
-
-请稍候，我正在为您生成新的表格。
-
-这是更新后的Table 3，已按照您的要求进行了修改：
 
 ### Performance Benchmark on TDVE-DB (Full Table)
 
@@ -273,10 +266,8 @@ For more details, please see Section 4 of our paper.
 ### Pretrained Models
 
 We plan to release the pretrained weights for TDVE-Assessor. Check back soon for download links and instructions.
-* `tdve_assessor_video_quality.pth`
-* `tdve_assessor_editing_alignment.pth`
-* `tdve_assessor_structural_consistency.pth`
-
+You can download the pretrained weight for Video Quality here.(https://huggingface.co/Moyao001/TDVE_Weight/tree/main)
+More pretrained weights will come soon...
 ## ⚙️ Usage
 
 ### Data Preparation
