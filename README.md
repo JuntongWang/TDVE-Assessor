@@ -226,7 +226,7 @@ Figures 8, 9, 10, and 11 in the paper present heatmaps showing the average score
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/JuntongWang/TDVE-Assessor.git](https://github.com/JuntongWang/TDVE-Assessor.git)
+    git clone https://github.com/JuntongWang/TDVE-Assessor.git
     cd TDVE-Assessor
     ```
 
